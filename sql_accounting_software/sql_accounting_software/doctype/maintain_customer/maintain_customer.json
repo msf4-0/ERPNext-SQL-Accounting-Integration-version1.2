@@ -1,0 +1,185 @@
+{
+ "autoname": "field:code",
+ "creation": "2022-12-13 19:38:59.611640",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "control_ac",
+  "code",
+  "column_break_4",
+  "gst_no",
+  "cust_category",
+  "section_break_4",
+  "branch_name",
+  "address",
+  "coordinate",
+  "attention",
+  "column_break_9",
+  "phone",
+  "mobile",
+  "fax",
+  "email",
+  "section_break_13",
+  "area",
+  "agent",
+  "currency",
+  "column_break_17",
+  "credit_terms",
+  "column_break_19",
+  "statement",
+  "aging_on",
+  "price_tag"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "company"
+  },
+  {
+   "fieldname": "control_ac",
+   "fieldtype": "Data",
+   "label": "control A/C"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "label": "code",
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "branch_name",
+   "fieldtype": "Data",
+   "label": "branch name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "address"
+  },
+  {
+   "fieldname": "coordinate",
+   "fieldtype": "Data",
+   "label": "coordinate"
+  },
+  {
+   "fieldname": "attention",
+   "fieldtype": "Data",
+   "label": "attention"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "phone"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "mobile"
+  },
+  {
+   "fieldname": "fax",
+   "fieldtype": "Data",
+   "label": "fax"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "email"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "area"
+  },
+  {
+   "fieldname": "agent",
+   "fieldtype": "Data",
+   "label": "agent"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Data",
+   "label": "currency"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_terms",
+   "fieldtype": "Data",
+   "label": "credit terms"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "statement",
+   "fieldtype": "Data",
+   "label": "statement"
+  },
+  {
+   "fieldname": "aging_on",
+   "fieldtype": "Data",
+   "label": "aging on"
+  },
+  {
+   "fieldname": "price_tag",
+   "fieldtype": "Data",
+   "label": "price tag"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gst_no",
+   "fieldtype": "Data",
+   "label": "GST. no"
+  },
+  {
+   "fieldname": "cust_category",
+   "fieldtype": "Data",
+   "label": "cust. category"
+  }
+ ],
+ "modified": "2023-02-16 10:31:39.546799",
+ "modified_by": "Administrator",
+ "module": "Sql Accounting Software",
+ "name": "maintain customer",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
